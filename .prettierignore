@@ -1,0 +1,7 @@
+node_modules
+dist
+lib
+.attio
+graphql.d.ts
+package-lock.json
+pnpm-lock.yaml

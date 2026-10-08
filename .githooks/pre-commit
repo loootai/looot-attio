@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# Runs the leak scanner before every commit. Turn it on once per clone:
+#   git config core.hooksPath .githooks
+set -euo pipefail
+root="$(git rev-parse --show-toplevel)"
+# package-lock.json carries npm's deprecation notice for glob, which names its maintainer's
+# public address. It is registry data, not ours, so the scanner is told to accept that one.
+export LEAK_SCAN_ALLOWED_EMAILS='^i@izs\.me$'
+exec bash "$root/scripts/leak-scan.sh" "$root"
