@@ -1,7 +1,7 @@
-node_modules
-dist
-lib
-.attio
+/node_modules
+/dist
+/lib
+/.attio
 .env
 .env.local
 .DS_Store
