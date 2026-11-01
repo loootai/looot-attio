@@ -5,7 +5,7 @@
 [![License](https://img.shields.io/github/license/loootai/looot-attio)](LICENSE) [![Docs](https://img.shields.io/badge/docs-docs.looot.ai-12A06A)](https://docs.looot.ai)
 
 An [Attio](https://attio.com) App SDK app for [looot](https://looot.ai). looot gives a workspace one key
-and one prepaid balance for 2,500+ data endpoints from 90+ providers. This app puts three of its jobs
+and one prepaid balance for 4,200+ data endpoints from 300+ providers. This app puts three of its jobs
 on people and company records as record actions.
 
 Status: source only. Not installed in an Attio workspace and not in the Attio App Store. It typechecks,

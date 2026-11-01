@@ -14,7 +14,7 @@ case. Nothing here was submitted.
 
 ## Overview
 
-looot gives your workspace one key and one prepaid balance for 2,500+ data endpoints from 90+
+looot gives your workspace one key and one prepaid balance for 4,200+ data endpoints from 90+
 providers. This app uses three of them on your people and companies records: it finds a person's
 work email, checks whether an email address can receive mail, and fills in a company's industry
 and size. You pay per lookup from your looot balance. There is no subscription, and a lookup that
